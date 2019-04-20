@@ -1,0 +1,152 @@
+<resources>
+    <string name="app_name">HealthCare</string>
+    <string name="title_activity_select_location">SelectLocation</string>
+    <string name="title_activity_select_my_location">Map</string>
+    <string name="ok">OK</string>
+
+
+    <!--hints-->
+
+    <string name="patient_name">Patient Name</string>
+    <string name="patient_birthday">12/04/1995</string>
+    <string name="patient_mobile_number">+918447709787</string>
+
+
+    <!--  Strings Recycler View -->
+
+    <string name="name_patient1">Ravi Kumar Mishra</string>
+    <string name="dob_patient1">12/04/1995</string>
+    <string name="mob_patient1"><u>+919876543210</u></string>
+
+
+    <string name="name_patient2">Raj Narayan Chandra</string>
+    <string name="dob_patient2">12/04/1995</string>
+    <string name="mob_patient2"><u>+919876543210</u></string>
+
+
+    <string name="check_connection">Please check your internet connection</string>
+
+    <!--Strings SignIn Page-->
+
+    <string name="title"><b>Healthcare</b></string>
+    <string name="phone_number">Phone Number</string>
+
+    <string name="password">Password</string>
+    <string name="signin">SIGN IN</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="or">OR</string>
+    <string name="sigin_OTP">SIGN IN USING OTP</string>
+    <string name="create_account">CREATE NEW ACCOUNT</string>
+
+    <dimen name="text_size">15sp</dimen>
+    <dimen name="margin_signin">10dp</dimen>
+
+
+    <!-- Strings Set Profile -->
+    <string name="doctor_name">Rahul Gupta</string>
+    <string name="doctor_contact">8447709787</string>
+    <string name="doctor_reg_no">Reg No - 81392344</string>
+    <string name="dob">DOB</string>
+    <string name="email">Email</string>
+    <string name="speciality">Speciality</string>
+    <string name="degree">Degree</string>
+    <string name="institution">Institution</string>
+    <string name="clinic_name">Name of Clinic</string>
+    <string name="phone_no_if_any">Phone Number(If any)</string>
+    <string name="next"><b>Next</b></string>
+
+
+    <!--Strings WorkAddress-->
+
+    <string name="search_location"><b>SEARCH LOCATION ON MAP</b></string>
+    <string name="landmark">Landmark, street, area</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="country">Country</string>
+    <string name="zip">Zip</string>
+    <string name="get_started">Get Started</string>
+    <string name="desc">Lorem ispum sit amet dollar consectetur \n
+                        sit amte dollar consectetur lorem ispum \n
+                sit amet dollar consectetur</string>
+
+        <!--Strings Tutorial Screen-->
+
+    <string name="skip"><b>SKIP</b></string>
+
+    <string name="btn_next"><b>NEXT</b></string>
+
+    <string name="tutorial_title">LOREM ISPUM SIT</string>
+
+
+    <dimen name="toolbar_text_size">20sp</dimen>
+    <dimen name="button_size">20dp</dimen>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

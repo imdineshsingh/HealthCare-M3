@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WorkAddressActivity"
+    >
+    <include
+        android:id="@+id/my_toolbar"
+        layout="@layout/custom_toolbar"/>
+<LinearLayout
+    android:id="@+id/linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/my_toolbar"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_above="@id/btn_get_started"
+    >
+
+<TextView
+    android:id="@+id/tv_description"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/desc"
+    android:gravity="center"
+    android:textSize="@dimen/text_size"
+    android:layout_marginTop="@dimen/margin_signin"
+    />
+    <Button
+        android:id="@+id/btn_search_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/corner_button"
+        android:text="@string/search_location"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="@dimen/margin_signin"
+        android:textSize="@dimen/button_size"
+        android:layout_marginBottom="@dimen/margin_signin"
+        />
+
+    <TextView
+        android:id="@+id/tv_or"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/or"
+        android:textSize="@dimen/button_size"
+        android:paddingStart="80dp"
+        android:paddingEnd="80dp"
+        android:textColor="@color/colorBlack"
+        android:drawableStart="@drawable/line_or"
+        android:drawableEnd="@drawable/line_or"
+        android:layout_marginTop="@dimen/margin_signin"
+        />
+
+    <EditText
+        android:id="@+id/et_landmark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/landmark"
+        android:textSize="@dimen/text_size"
+        android:textColorHint="@color/colorBlack"
+        android:layout_marginTop="@dimen/margin_signin"
+        android:inputType="text"
+        android:maxLines="1"
+        android:imeOptions="actionNext"
+        android:backgroundTint="@color/colorLightBlack"
+        />
+    <EditText
+        android:id="@+id/et_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/city"
+        android:textColorHint="@color/colorBlack"
+        android:textSize="@dimen/text_size"
+        android:layout_marginTop="@dimen/margin_signin"
+        android:inputType="text"
+        android:maxLines="1"
+        android:imeOptions="actionNext"
+        android:backgroundTint="@color/colorLightBlack"
+        />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/colorBlack"
+        android:drawableEnd="@mipmap/down_aero"
+        android:layout_marginTop="@dimen/margin_signin"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorLightBlack"
+        android:layout_marginStart="5dp"
+        />
+
+    <EditText
+        android:id="@+id/et_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/country"
+        android:textColorHint="@color/colorBlack"
+        android:textSize="@dimen/text_size"
+        android:layout_marginTop="@dimen/margin_signin"
+        android:inputType="text"
+        android:maxLines="1"
+        android:imeOptions="actionNext"
+        android:backgroundTint="@color/colorLightBlack"
+        />
+
+    <EditText
+        android:id="@+id/et_zip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/zip"
+        android:textSize="@dimen/text_size"
+        android:textColorHint="@color/colorBlack"
+        android:layout_marginTop="@dimen/margin_signin"
+        android:inputType="text"
+        android:maxLines="1"
+        android:imeOptions="actionDone"
+        android:backgroundTint="@color/colorLightBlack"
+        />
+
+</LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_get_started"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_started"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorBlue"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/button_size"
+
+        />
+
+</RelativeLayout>
+
+</layout>

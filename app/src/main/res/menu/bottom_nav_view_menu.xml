@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@mipmap/home_a"
+        android:title="Home"
+        
+        />
+
+    <item
+        android:id="@+id/kit"
+        android:icon="@mipmap/kit_a"
+        android:title="Kit"
+        />
+
+    <item
+        android:id="@+id/medicine"
+        android:icon="@mipmap/medicinee_a"
+        android:title="Medicine"
+        />
+    <item
+        android:id="@+id/notes"
+        android:icon="@mipmap/notes_a"
+        android:title="Notes"
+        />
+    <item
+        android:id="@+id/menu"
+        android:icon="@mipmap/menu_a"
+        android:title="Menu"
+        />
+</menu>

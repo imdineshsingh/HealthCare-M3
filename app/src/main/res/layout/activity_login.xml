@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:paddingStart="30dp"
+    android:paddingEnd="30dp"
+    android:fitsSystemWindows="true"
+    >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/logo"
+        android:layout_marginTop="60dp"
+        />
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:text="@string/title"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginBottom="@dimen/margin_signin"
+
+        />
+
+    <EditText
+        android:id="@+id/et_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:hint="@string/phone_number"
+        android:textSize="@dimen/text_size"
+        android:textColorHint="@color/colorBlack"
+        android:layout_marginTop="@dimen/margin_signin"
+
+        android:inputType="phone"
+        android:maxLines="1"
+        android:digits="0123456789"
+        android:imeOptions="actionNext"
+        android:backgroundTint="@color/colorLightBlack"
+        android:maxLength="10"
+        />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_phone_number"
+        android:hint="@string/password"
+        android:textSize="@dimen/text_size"
+        android:textColorHint="@color/colorBlack"
+        android:layout_marginTop="@dimen/margin_signin"
+
+        android:inputType="textWebPassword"
+        android:password="true"
+        android:maxLines="1"
+        android:imeOptions="actionDone"
+        android:backgroundTint="@color/colorLightBlack"
+        />
+
+    <Button
+        android:id="@+id/btn_signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_password"
+        android:text="@string/signin"
+        android:textSize="@dimen/button_size"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/corner_signin"
+        android:layout_marginTop="@dimen/margin_signin"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_forgot_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_signin"
+        android:text="@string/forgot_password"
+        android:gravity="center"
+        android:textSize="@dimen/button_size"
+        android:textColor="@color/colorRed"
+
+        android:layout_marginTop="@dimen/margin_signin"
+        />
+
+    <TextView
+        android:id="@+id/tv_or"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_forgot_password"
+        android:gravity="center"
+        android:text="@string/or"
+        android:textSize="@dimen/text_size"
+        android:paddingStart="80dp"
+        android:paddingEnd="80dp"
+        android:textColor="@color/colorBlack"
+        android:drawableStart="@drawable/line_or"
+        android:drawableEnd="@drawable/line_or"
+        android:layout_marginTop="@dimen/margin_signin"
+        />
+    <Button
+        android:id="@+id/btn_signin_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_or"
+        android:text="@string/sigin_OTP"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/button_size"
+        android:background="@drawable/corner_button"
+
+        android:layout_marginTop="@dimen/margin_signin"
+        />
+    <Button
+        android:id="@+id/btn_create_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_signin_otp"
+        android:text="@string/create_account"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/button_size"
+        android:background="@drawable/corner_button"
+        android:layout_marginTop="10dp"
+
+        />
+
+
+
+
+</RelativeLayout>
+
+</layout>
